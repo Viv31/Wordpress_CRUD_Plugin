@@ -86,7 +86,7 @@ add_action('init','create_custom_post_type_for_user_registration');
 /*
 =================================================================================
 
-				Database Creation on Plugin Activation Starts
+				Database table Creation on Plugin Activation Starts
 =================================================================================
 */
 
@@ -109,7 +109,7 @@ dbDelta( $sql );
 /*
 =================================================================================
 
-				Database Creation on Plugin Activation End
+				Database table Creation on Plugin Activation End
 =================================================================================
 */
 
