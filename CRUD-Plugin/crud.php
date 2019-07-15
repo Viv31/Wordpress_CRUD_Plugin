@@ -126,6 +126,7 @@ function crudOperationPluginFunction(){
 	//Now we will create a form for inserting data 
 
 //echo plugins_url();
+	 $imgPath = plugins_url();
 //die;
 
 	?>
@@ -133,7 +134,7 @@ function crudOperationPluginFunction(){
 		body{
 
 			/*background-color: #00000061;;*/
-			background-image: url('http://localhost/Wordpress/custom_plugin_development/wp-content/plugins/CRUD-Plugin/img/bg.jpg');
+			background-image: url('<?php echo $imgPath;?>/CRUD-Plugin/img/bg.jpg');
 
 		}
 		
