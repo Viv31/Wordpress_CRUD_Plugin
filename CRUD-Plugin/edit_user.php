@@ -40,7 +40,7 @@ global $wpdb;
 					</div>
 					<div class="form-group">
 						<label>Email:</label>
-						<input type="text" name="user_email" id="user_email" placeholder="Insert email" class="form-control" value="<?php echo $edit_data->user_email; ?>">
+						<input type="text" name="user_email" id="user_email" placeholder="Insert email" class="form-control" value="<?php echo $edit_data->user_email; ?>" readonly>
 						<div class="popup_error" id="email_error_msg"></div>
 					</div>
 					<input type="hidden" name="id" value="<?php echo $edit_data->id; ?>">
